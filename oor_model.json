@@ -1,0 +1,10 @@
+{
+"params": [
+         {"sensor_type": "wspd", "sensor_stat": "avg", "min": 0, "max": 50},
+         {"sensor_type": "wdir", "sensor_stat": "avg", "min": 0, "max": 360},
+         {"sensor_type": "temp", "sensor_stat": "avg", "min": -50, "max": 60},
+         {"sensor_type": "pres", "sensor_stat": "avg", "min": 800, "max": 1300}
+        ],
+"gap_length_hours": 24,
+"flag_name": "Auto_Out_of_range"
+}
